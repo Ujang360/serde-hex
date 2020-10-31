@@ -10,10 +10,10 @@ license = "MIT/Apache-2.0"
 readme = "README.md"
 
 [dependencies]
-array-init = "0.0.4"
-smallvec = "0.6"
-serde = "1.0"
+array-init = "1.0.0"
+smallvec = { version = "1.4.2", features = ["write"] }
+serde = "1.0.117"
 
 [dev-dependencies]
-serde_derive = "1.0"
-serde_json = "1.0"
+serde_derive = "1.0.117"
+serde_json = "1.0.59"
